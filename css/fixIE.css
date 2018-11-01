@@ -1,0 +1,96 @@
+/* 处理兼容性样式 */
+.header .logo{
+    *display: inline;
+}
+.header .recommend{
+    *width:318px;
+}
+.search .inp{
+    *height:12px;
+}
+.content .item, .item1, .item2, .item3, .item4,
+.item5, .item6, .item7, .item8, .item9, .item10,
+.item11, .item12, .item13 {
+    margin-top:20px;
+    background-color: #ffffff;
+    vertical-align: top;
+}
+.classify .classify1 .lab{
+    height:22px;
+    line-height:22px;
+    padding:0 10px;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #909090;
+    position: absolute;
+    left:0;
+    top:-22px;
+}
+.classify .classify2 .lab{
+    height:22px;
+    line-height:22px;
+    padding:0 10px;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #909090;
+    position: absolute;
+    left:0;
+    top:-22px;
+}
+.classify .classify3 .lab{
+    height:22px;
+    line-height:22px;
+    padding:0 10px;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #909090;
+    position: absolute;
+    left:0;
+    top:-22px;
+}
+.classify .classify4 .lab{
+    height:22px;
+    line-height:22px;
+    padding:0 10px;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #909090;
+    position: absolute;
+    left:0;
+    top:-22px;
+}
+.classify .classify1 .text_box{
+    padding-top:5px;
+}
+.classify .classify2 .text_box{
+    padding-top:5px;
+}
+.classify .classify3 .text_box{
+    padding-top:5px;
+}
+.classify .classify4 .text_box{
+    padding-top:5px;
+}
+.fore_right{
+    margin-left:-20px;
+}
+.introduce .intro_right{
+    width:310px;
+    height:300px;
+    margin-left:-20px;
+}
+.con_top .big_mov{
+    margin-right:0;
+}
+.network .net_right{
+    margin-left:-20px;
+}
+.inline{
+    display: inline;
+}
+/*.con_top .small_mov{*/
+    /*margin-right:0;*/
+/*}*/
+/*.con_ad .ad_right{*/
+    /*margin-right:0;*/
+/*}*/
