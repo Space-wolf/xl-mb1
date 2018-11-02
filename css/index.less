@@ -1,0 +1,151 @@
+@w:#fff;
+@b1:#333333;
+@bg1:#0d6fb8;
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    width: 100%;
+    font-size: 16px;
+    #head{
+        width: 100%;
+    }
+    #banner{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    #rem_pro{
+        width: 100%;
+        height: 430px;
+        background: url(../images/rem_pic.jpg) no-repeat;
+        background-size: 100%;
+    }
+}
+.head{
+    .logo{
+        float: left;
+        width: 380px;
+        height: 100px;
+        img{
+            width: 380px;
+            height: 100px;
+        }
+    }
+    .nav{
+        float: right;
+        color: @b1;
+        a{
+            float: left;
+            width: 120px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            &:hover{
+                color: @w;
+                background-color: @bg1;
+            }
+        }
+        
+    }
+}
+.banner_box{
+    width: 100%;
+    position: absolute;
+    height: 500px;
+    left: 0;
+    top: 0;
+    .banner_item{
+        position: absolute;
+        left: 0;
+        top: 0;
+        a{
+            display: block;
+        }
+    }
+}
+.swiper-pagination{
+    .swiper-pagination-bullet{
+        width: 50px;
+        height: 4px;
+        border-radius: 0%;
+        opacity: 1;
+        background-color: @w;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: #e40404;
+    }
+}
+
+.rem_pro_box{
+    height: 430px;
+    .bottom{
+        width: 1200px;
+        height: 280px;
+        margin-top: 45px;
+        position: relative;
+        overflow: hidden;
+        .botm{
+            width: 4000px;
+            height:280px;
+            position: absolute;
+            left: 0;
+            top: 0;         
+        }   
+    }
+}
+.botm_item{
+    float: left;
+    width: 290px;
+    height: 280px;
+    margin-right: 13px;
+    .img_href{
+        display: block;
+        padding: 2px;
+        background-color: @w;
+        img{
+            width: 286px;
+            height: 226px;
+        }
+    }
+    .botpro_name{
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+        color: @w;
+        text-align: center;
+    }
+}
+.top{
+    position: relative;
+    height: 75px;
+}
+.mn_box{
+    width: 240px;
+    margin-left:-120px;
+    height: 56px;
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    .m_name{
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+        color: @w;
+        text-align: center;
+    }
+    .m_enname{
+        height: 16px;
+        line-height: 16px;
+        font-size: 14px;
+        color: @w;
+        text-align: center;
+    }
+}
+.border_color1{
+    border-bottom: 1px solid #ffffff;
+}
