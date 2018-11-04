@@ -24,6 +24,14 @@ body{
         background: url(../images/rem_pic.jpg) no-repeat;
         background-size: 100%;
     }
+    #product{
+        width: 100%;
+    }
+    #us{
+        width: 100%;
+        height: 550px;
+        background-color: #eeeeee;
+    }
 }
 .head{
     .logo{
@@ -122,6 +130,7 @@ body{
 }
 .top{
     position: relative;
+    width: 1200px;
     height: 75px;
 }
 .mn_box{
@@ -135,17 +144,111 @@ body{
         height: 40px;
         line-height: 40px;
         font-size: 30px;
-        color: @w;
         text-align: center;
     }
     .m_enname{
         height: 16px;
         line-height: 16px;
         font-size: 14px;
-        color: @w;
         text-align: center;
     }
 }
 .border_color1{
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid @w;
+}
+.border_color2{
+    border-bottom: 1px solid @b1;
+}
+.font-white{
+    color: @w;
+}
+.font-black{
+    color: @b1;
+    background-color: @w;
+}
+.protit_bg{
+    background: url(../images/protit_bg.png) no-repeat;
+}
+.product{
+    margin-top: 20px;
+    height: 715px;
+    .pro_bottom{
+        margin-top: 45px;
+        .pro_list_tits{
+            width: 100%;
+            height: 35px;
+            text-align: center;
+            span{
+                display: inline-block;
+                width: 140px;
+                height: 35px;
+                font-size: 18px;
+                line-height: 35px;
+                text-align: center;
+                background-color: #bbbbbb;
+                margin: 0 5px;
+                cursor: pointer;
+                color: @w;
+            }
+        }
+        .probox{
+            width: 100%;
+            margin-top: 30px;
+            .show{
+                display: flex;
+            }
+        }
+    }
+}
+.pro_item{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: left;
+    li{
+        float: left;
+        width: 290px;
+        height: 230px;
+        margin-bottom: 20px;
+        position: relative;
+        &:hover .pro_name{
+            z-index: 4;
+        }
+        .pro_img{
+            display: block;
+            width: 290px;
+            height: 230px;
+            img{
+                width: 290px;
+                height: 230px;
+            }
+        }
+        .pro_name{
+            display: block;
+            width: 290px;
+            height: 230px;
+            font-size: 24px;
+            line-height: 230px;
+            text-align: center;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -4;
+            color: @w;
+            background-color: rgba(13, 111, 184, .5);   
+        }
+    }
+}
+.font-black2{
+    background-color: #eeeeee;
+}
+.us{
+    height: 550px;
+    .top{
+        margin-top: 10px;
+    }
+    .us_bottom{
+        margin-top: 45px;
+        width: 100%;
+    }
 }
